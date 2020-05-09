@@ -160,3 +160,7 @@ button.btn:hover{
   background-color: #DFC0B2;
   color:#B46A53;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
