@@ -132,7 +132,7 @@ img {
   padding: 0;
   display: block;
   object-fit: cover;
-  opacity: .8;
+  opacity: .7;
   height: 520px;
   margin-left: auto;
   margin-right: auto;
@@ -143,7 +143,7 @@ button.btn {
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #555;
+  background-color: #B46A53;
   color: white;
   font-size: 16px;
   border: none;
@@ -152,6 +152,11 @@ button.btn {
   display: block;
   margin: 0 auto;
   padding: 0;
-  width: 25%;
+  width: 15%;
   height: 50px;
+}
+
+button.btn:hover{
+  background-color: #DFC0B2;
+  color:#B46A53;
 }
