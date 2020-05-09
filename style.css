@@ -40,6 +40,7 @@ h2 {
 section {
   background: #D8DAD4;
   color: #40858C;
+  height: 20px 0;
   width: auto;
 }
 
@@ -51,6 +52,7 @@ nav {
   padding: 20px 0;
   box-shadow: 0px 2px 0px #dedede;
 }
+
 nav ul {
   list-style: none;
   text-align: center;
@@ -102,7 +104,6 @@ nav.stroke ul li a:hover:after {
 nav.fill ul li a {
   transition: all 2s;
 }
-
 nav.fill ul li a:after {
   text-align: left;
   content: '.';
@@ -122,6 +123,15 @@ nav.fill ul li a:hover:after {
 }
 
 img {
+  background-color: #D8DAD4;
+  background-size: cover;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 0;
+  display: block;
+  object-fit: cover;
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
 }
