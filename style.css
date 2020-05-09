@@ -121,6 +121,9 @@ nav.fill ul li a:hover:after {
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
+nav.stroke{
+  opacity: .8;
+}
 
 img {
   background-color: #D8DAD4;
@@ -129,9 +132,26 @@ img {
   padding: 0;
   display: block;
   object-fit: cover;
+  opacity: .8;
   height: 520px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
+}
+button.btn {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 25%;
+  height: 50px;
 }
